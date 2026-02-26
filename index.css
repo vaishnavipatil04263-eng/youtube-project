@@ -1,0 +1,86 @@
+@font-face {
+    font-family: chacha;
+    src: url(./);
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+
+
+body {
+    background: rgba(20, 19, 19, 0.973);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 15px 70px;
+    
+    
+
+    .nav-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        background-color: red;
+        width: 300px;
+
+    }
+
+    .nav-2 {
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .nav-2 h4 {
+        font-size: 20px;
+        font-weight: 100px;
+        font-family: monospace;
+    }
+}
+.nav-2 h4 i{
+    font-size: 10px;
+}
+
+.nav-1 img {
+    height: 45px;
+}
+
+.nav-2 h5 {
+    font-size: 20px;
+    display: none;
+
+}
+
+.nav-3 {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.nav-3 h4 {
+    font-size: 20px;
+    font-weight: 100px;
+    font-family: monospace;
+}
+
+.nav-3 h5 {
+    font-size: 20px;
+
+    display: none;
+}
